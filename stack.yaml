@@ -1,0 +1,12 @@
+- name: mybackend--preprod
+  secret_owners:
+    teams:
+      - my-ops
+  secret_readers:
+    teams:
+      - my-dev
+    k8s:
+    - gke:mycluster
+  secrets:
+  - custom--mybackend--preprod--client-id
+  - custom--mybackend--preprod--client-id
