@@ -9,4 +9,4 @@
     - gke:mycluster
   secrets:
   - custom--mybackend--preprod--client-id
-  - custom--mybackend--preprod--client-id
+  - custom--mybackend--preprod--client-key
