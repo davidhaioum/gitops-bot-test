@@ -6,7 +6,8 @@
     teams:
       - my-dev
     k8s:
-    - gke:mycluster
+      - gke:mycluster
   secrets:
-  - custom--mybackend--preprod--client-id
-  - custom--mybackend--preprod--client-key
+    - custom--mybackend--preprod--client-id
+    - custom--mybackend--preprod--client-key
+    - new-secret
