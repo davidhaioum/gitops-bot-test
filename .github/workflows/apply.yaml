@@ -1,13 +1,13 @@
-name: Plan
+name: Apply
 on:
   push:
     branch:
     - main
 jobs:
-  plan:
+  apply:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v3
         with:
           ref: main
-      - run: echo "Plan..."
+      - run: echo "Apply..."
